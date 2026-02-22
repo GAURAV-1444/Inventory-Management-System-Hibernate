@@ -7,7 +7,7 @@ The project performs CRUD operations and advanced inventory-related queries such
 
 🛠️ Technologies Used
 
-Java (JDK 8)
+Java 
 
 Hibernate ORM
 
