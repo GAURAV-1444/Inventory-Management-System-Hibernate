@@ -128,39 +128,39 @@ public class InventoryApp {
 				p60, p61, p62, p63, p64, p65, p66, p67, p68, p69, p70, p71, p72, p73, p74, p75, p76, p77, p78, p79, p80,
 				p81, p82, p83, p84, p85, p86, p87, p88, p89, p90, p91, p92, p93, p94, p95, p96, p97, p98, p99, p100);
 
-		pc.addMulProducts(pros);
+//		pc.addMulProducts(pros);
 
-		Products pUp = new Products("DataCable", "Accessories", 1500, "11-01-2024", "11-04-2029", 12, 60);
-
-		pc.updateProductById(21, pUp);
-
-		pc.deleteProductById(21);
-
-		pc.getProductById(4);
-
+//		Products pUp = new Products("DataCable", "Accessories", 1500, "11-01-2024", "11-04-2029", 12, 60);
+//
+//		pc.updateProductById(21, pUp);
+//
+//		pc.deleteProductById(21);
+//
+//		pc.getProductById(4);
+//
 		pc.getAllProducts();
-
-		pc.getProductsByCategory("home appliances");
-
-		pc.getProductsByName("fan");
-
-		pc.getProductsPriceLessThan(200);
-
-		pc.getProductsBetweenPrice(10000, 15000);
-
-		pc.getProductsOrderByPriceAsc();
-
-		pc.getProductsOrderByPriceDesc();
-
-		pc.getProductsWithWarrantyGreaterThan(50);
-
-		pc.getAvailableProducts();
-
-		pc.getOutOfStockProducts();
-
-		pc.getProductsManufacturedAfter("2024-03-01");
-
-		pc.getProductsExpiringBefore("2027-03-01");
+//
+//		pc.getProductsByCategory("home appliances");
+//
+//		pc.getProductsByName("fan");
+//
+//		pc.getProductsPriceLessThan(200);
+//
+//		pc.getProductsBetweenPrice(10000, 15000);
+//
+//		pc.getProductsOrderByPriceAsc();
+//
+//		pc.getProductsOrderByPriceDesc();
+//
+//		pc.getProductsWithWarrantyGreaterThan(50);
+//
+//		pc.getAvailableProducts();
+//
+//		pc.getOutOfStockProducts();
+//
+//		pc.getProductsManufacturedAfter("2024-03-01");
+//
+//		pc.getProductsExpiringBefore("2027-03-01");
 
 	}
 
